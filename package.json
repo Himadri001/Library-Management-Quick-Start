@@ -1,0 +1,31 @@
+{
+  "name": "evaly_task",
+  "version": "1.0.0",
+  "description": "Library management system API repo",
+  "main": "app.js",
+  "scripts": {
+    "test": "start test"
+  },
+  "keywords": [
+    "library",
+    "author",
+    "book"
+  ],
+  "author": "Himadri Chowdhury",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multipart": "^0.1.5",
+    "mysql": "^2.18.1",
+    "node-excel-export": "^1.4.4",
+    "validatorjs": "^3.18.1"
+  }
+}
